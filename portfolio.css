@@ -1,8 +1,37 @@
-@media (min-width: 412px) {
+@media (max-width: 768px) {
     .contact h1 {
-        display: inline-block;
+        display: flex;
+        margin-left: 290px;
     }
+
     .contact-box {
-        width: 80%;
+        width: 90%; 
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .contact-box .mb-3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-box input{
+        width: 300px;
+        margin-right: 150px;
+    }
+
+    .contact-box textarea{
+        margin-right: 15px;
+    }
+    .contact button {
+        margin-left: 100px; 
+    }
+}
+@media (min-width: 768px) {
+    .contact h1 {
+        margin-left: 380px;
+    }
+    .contact button {
+        margin-left: 30vh; 
     }
 }
