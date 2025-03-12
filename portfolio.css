@@ -1,0 +1,8 @@
+@media (min-width: 412px) {
+    .contact h1 {
+        display: inline-block;
+    }
+    .contact-box {
+        width: 80%;
+    }
+}
