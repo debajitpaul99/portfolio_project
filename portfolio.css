@@ -1,12 +1,16 @@
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 425px) {
+    .navbar-toggler{
+        margin-left: 100px;
+    }
     .contact h1 {
         display: flex;
-        margin-left: 290px;
+        margin-left: 180px;
     }
 
     .contact-box {
-        width: 90%; 
-        margin: 0 auto;
+        text-align: center;
+        width: 100%; 
+        margin-left: 80px !important;
         padding: 20px;
     }
 
@@ -23,15 +27,89 @@
     .contact-box textarea{
         margin-right: 15px;
     }
-    .contact button {
-        margin-left: 100px; 
+    .university{
+        height: 360px;
+        margin-left: 10vh !important;
+    }
+    .footer{
+        text-align: justify;
+        margin-top: 50px;
+        width: 400px;
+        margin-left: 13vh;
     }
 }
-@media (min-width: 768px) {
-    .contact h1 {
-        margin-left: 380px;
+@media (min-width: 426px) and (max-width: 1400px) {
+    .navbar-toggler{
+        margin-left: 400px;
     }
-    .contact button {
-        margin-left: 30vh; 
+    .contact h1 {
+        display: flex;
+        margin-left: 240px;
+    }
+
+    .contact-box {
+        text-align: center;
+        width: 100%; 
+        margin-left: 60px !important;
+        padding: 20px;
+    }
+
+    .contact-box .mb-3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-box input{
+        width: 300px;
+        margin-right: 150px;
+    }
+
+    .contact-box textarea{
+        margin-right: 15px;
+    }
+    .university{
+        height: 260px;
+        margin-left: 30vh !important;
+    }
+    .footer{
+        text-align: justify;
+        margin-left: 35vh;
+        margin-top: 50px;
+    }
+}
+@media (min-width: 1401px) {
+    .contact h1 {
+        display: flex;
+        margin-left: 60vh;
+    }
+
+    .contact-box {
+        text-align: center;
+        width: 100%; 
+        margin-left: 40vh !important;
+        padding: 20px;
+    }
+
+    .contact-box .mb-3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-box input{
+        width: 300px;
+        margin-right: 150px;
+    }
+
+    .contact-box textarea{
+        margin-right: 15px;
+    }
+    .university{
+        height: 260px;
+        margin-left: 30vh !important;
+    }
+    .footer{
+        text-align: justify;
+        margin-left: 65vh;
+        margin-top: 50px;
     }
 }
